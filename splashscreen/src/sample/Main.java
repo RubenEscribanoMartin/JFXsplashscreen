@@ -9,7 +9,8 @@ import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
-    Stage stage;
+    Stage stage; //ramaRuben
+    
 
     @Override
     public void start(Stage primaryStage) throws Exception{
