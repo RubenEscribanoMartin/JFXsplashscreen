@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
@@ -20,12 +23,25 @@
             </AnchorPane>
          </top>
          <center>
-            <Label text="YOU'RE IN!!" textFill="#000000d4" BorderPane.alignment="CENTER">
+            <Label text="YOU'RE IN!!" textFill="#000000d4" BorderPane.alignment="TOP_CENTER">
                <font>
                   <Font size="39.0" />
                </font>
+               <BorderPane.margin>
+                  <Insets top="30.0" />
+               </BorderPane.margin>
             </Label>
          </center>
+         <bottom>
+            <ImageView fx:id="imagen" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@HoYp1cA.gif" />
+               </image>
+               <BorderPane.margin>
+                  <Insets bottom="30.0" />
+               </BorderPane.margin>
+            </ImageView>
+         </bottom>
       </BorderPane>
    </children>
 </AnchorPane>

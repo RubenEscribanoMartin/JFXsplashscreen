@@ -11,6 +11,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -33,6 +34,9 @@ public class Controller implements Initializable {
 	@FXML
 	private Label nameLabel;
 
+	@FXML
+	private ImageView imagen;
+	
 	Main main;
 	Stage stage;
 
