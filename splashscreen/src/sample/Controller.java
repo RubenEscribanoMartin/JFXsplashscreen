@@ -36,6 +36,7 @@ public class Controller implements Initializable {
 	
 	@FXML
 	private ImageView mountains;
+	
 
 	Main main;
 	Stage stage;
@@ -66,7 +67,10 @@ public class Controller implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-
+		
+		
+		mountains.setLayoutX(712);
+		mountains.setLayoutY(517);
 		TranslateTransition translateTransition = new TranslateTransition(
 				Duration.seconds(0.5), logoLabel);
 		translateTransition.setByY(700);
