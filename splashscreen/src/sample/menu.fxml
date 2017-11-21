@@ -7,7 +7,7 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00bb3955;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
             <AnchorPane prefHeight="110.0" style="-fx-background-color: #00a75f;" BorderPane.alignment="CENTER">
                <children>
@@ -20,12 +20,15 @@
             </AnchorPane>
          </top>
          <center>
-            <Label text="YOU'RE IN!!" textFill="#000000d4" BorderPane.alignment="CENTER">
+            <Label text="YOU'RE OUT!!" textFill="#000000d4" BorderPane.alignment="CENTER">
                <font>
-                  <Font size="39.0" />
+                  <Font name="Lucida Sans Typewriter Regular" size="39.0" />
                </font>
             </Label>
          </center>
+         <bottom>
+            <AnchorPane prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #50bf4aff;" BorderPane.alignment="CENTER" />
+         </bottom>
       </BorderPane>
    </children>
 </AnchorPane>

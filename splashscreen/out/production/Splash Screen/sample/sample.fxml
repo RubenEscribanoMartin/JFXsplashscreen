@@ -19,9 +19,9 @@
             <Rectangle2D height="517.0" minX="100.0" minY="100.0" width="712.0" />
          </viewport>
       </ImageView>
-      <Label fx:id="logoLabel" alignment="CENTER" layoutX="301.0" layoutY="114.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;" text="R">
+      <Label fx:id="logoLabel" alignment="CENTER" layoutX="301.0" layoutY="114.0" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff77; -fx-background-radius: 50px;" text="R">
          <font>
-            <Font name="FrankRuehl" size="73.0" />
+            <Font name="Lucida Sans Regular" size="73.0" />
          </font>
       </Label>
       <Label fx:id="nameLabel" layoutX="295.0" layoutY="226.0" text="APP NAME" textFill="WHITE" visible="false">

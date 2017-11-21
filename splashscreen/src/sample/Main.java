@@ -9,43 +9,41 @@ import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
-    Stage stage; //ramaRuben
-    
+	Stage stage; // ramaRuben
 
-    @Override
-    public void start(Stage primaryStage) throws Exception{
+	@Override
+	public void start(Stage primaryStage) throws Exception {
 
-        this.stage=primaryStage;
+		this.stage = primaryStage;
 
-        MainWindow();
+		MainWindow();
 
-    }
+	}
 
-    private void MainWindow() {
+	private void MainWindow() {
 
-        try {
+		try {
 
-        	FXMLLoader loader=new FXMLLoader(getClass().getResource("sample.fxml"));
-            AnchorPane pane=loader.load();
-            Controller controller=loader.getController();
-            controller.main(stage,this);
-            Scene scene=new Scene(pane);
-            stage.initStyle(StageStyle.UNDECORATED);
-            stage.setScene(scene);
-            stage.show();
+			FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
+			AnchorPane pane = loader.load();
+			Controller controller = loader.getController();
+			controller.main(stage, this);
+			Scene scene = new Scene(pane);
+			stage.initStyle(StageStyle.DECORATED);
+			stage.setScene(scene);
+			stage.show();
 
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
-    }
+	}
 
-    public void closeStage(){
-        stage.close();
-    }
+	public void closeStage() {
+		stage.close();
+	}
 
-
-    public static void main(String[] args) {
-        launch(args);
-    }
+	public static void main(String[] args) {
+		launch(args);
+	}
 }
