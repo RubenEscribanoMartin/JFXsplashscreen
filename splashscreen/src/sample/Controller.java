@@ -69,8 +69,6 @@ public class Controller implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		
 		
-		mountains.setLayoutX(712);
-		mountains.setLayoutY(517);
 		TranslateTransition translateTransition = new TranslateTransition(
 				Duration.seconds(0.5), logoLabel);
 		translateTransition.setByY(700);
