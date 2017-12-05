@@ -20,7 +20,7 @@ public class Main extends Application {
 
 	}
 
-	private void MainWindow() { 
+	private void MainWindow() {
 
 		try {
 
